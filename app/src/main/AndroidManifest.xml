@@ -7,19 +7,29 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".FullscreenActivity"
+            android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingScreen"></activity>
+        <activity android:name=".SettingScreen" />
+        <activity
+            android:name=".HighscoreActivity"
+            android:label="@string/title_activity_highscore"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Storemenu"
+            android:label="@string/title_activity_storemenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>
