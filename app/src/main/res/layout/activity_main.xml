@@ -12,6 +12,7 @@
         android:layout_height="75dp"
         android:id="@+id/startGame"
         android:textSize="24sp"
+        android:onClick="OpenCameraScreen"
         android:textAlignment="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
