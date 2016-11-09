@@ -11,4 +11,15 @@
     android:background="#ffcc4444"
     tools:context="com.example.ecastillo.zombiedefence.Camera">
 
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="196dp"
+        android:id="@+id/button3" />
 </RelativeLayout>
