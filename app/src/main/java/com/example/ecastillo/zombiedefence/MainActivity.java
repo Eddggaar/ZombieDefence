@@ -7,6 +7,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    public final static String Svfile = "setting_save";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OpenCameraScreen(View view){
-        Intent intent = new Intent (this,CameraScreen.class);
+        Intent intent = new Intent (this,Camera.class);
         startActivity(intent);
     }
 
